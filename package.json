@@ -1,0 +1,23 @@
+{
+  "name": "dsh-plugin-github",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Connect GitHub repositories to dsh: browse, inspect, and bring repositories into the workspace.",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=24.9.0"
+  },
+  "license": "MIT"
+}
